@@ -1,0 +1,32 @@
+div {
+    margin: 10px auto;
+    width: 150px;
+    height: 150px;
+    transition: 1s linear;
+    cursor: pointer;
+}
+
+.red {
+    background-color: red;
+}
+
+.red:hover {
+    width: 300px;
+}
+
+.green {
+    background-color: green;
+}
+
+.green:hover {
+    height: 300px;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.blue:hover {
+    width: 300px;
+    height: 300px;
+}
